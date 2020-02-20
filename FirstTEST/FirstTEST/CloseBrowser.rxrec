@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c21dab7d-41c8-436f-96d1-7194dd14753a"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="FirstTEST">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="dc8e8462-a718-4fda-adf2-78b88a7e6aff">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5af76ec1-bbfc-4a50-ae95-65bf81aeb717"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="b5532693-295d-4cbd-9238-766aca3aa27c"
+	name="FirstTESTRepository"
+	relativepath="FirstTESTRepository.rxrep">
+		<codegen
+		classname="FirstTESTRepository"
+		namespace="FirstTEST">
+		</codegen>
+		<rootfolder
+		id="e78362eb-71a6-4fc1-bc96-bda597bbb43e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
